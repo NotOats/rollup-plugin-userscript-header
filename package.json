@@ -2,9 +2,11 @@
   "name": "rollup-plugin-userscript-header",
   "version": "1.0.0",
   "description": "Rollup plugin for generating userscript headers",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/NotOats/rollup-plugin-userscript-header/issues"
   },
-  "homepage": "https://github.com/NotOats/rollup-plugin-userscript-header#readme"
+  "homepage": "https://github.com/NotOats/rollup-plugin-userscript-header#readme",
+  "dependencies": {
+    "magic-string": "^0.25.4",
+    "userscript-meta": "^1.0.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.8",
+    "rollup-plugin-buble": "^0.19.8"
+  }
 }
