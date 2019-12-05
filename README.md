@@ -1,3 +1,6 @@
+![npm](https://img.shields.io/npm/v/rollup-plugin-userscript-header)
+[![install size](https://packagephobia.now.sh/badge?p=rollup-plugin-userscript-header)](https://packagephobia.now.sh/result?p=rollup-plugin-userscript-header)
+
 # rollup-plugin-userscript-header
 
 A Rollup plugin to add userscript metadata blocks to files.
