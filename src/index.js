@@ -66,7 +66,7 @@ function trimFalsyProperties(obj) {
             return filtered.reduce((newObj, [key, value]) => {
                 newObj[key] = value;
                 return newObj;
-            });
+            }, {});
         }
 
         return undefined;
