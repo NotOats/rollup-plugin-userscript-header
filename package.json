@@ -13,8 +13,15 @@
     "type": "git",
     "url": "git+https://github.com/NotOats/rollup-plugin-userscript-header.git"
   },
+  "files":[
+    "dist",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
-    "rollup-plugin"
+    "rollup-plugin",
+    "userscript"
   ],
   "author": "NotOats",
   "license": "MIT",
